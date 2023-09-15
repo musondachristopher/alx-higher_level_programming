@@ -4,9 +4,10 @@
 A lookup function container..
 """
 
+
 def lookup(obj):
     """
-    Args:
+    Arguments:
         obj: initial object
 
         Returns: a list of available attributes and
