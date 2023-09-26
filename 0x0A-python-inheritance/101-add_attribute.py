@@ -2,17 +2,17 @@
 
 """
 File: 101-add_attribute.py
-Desc: This module  contains a function defination
+Desc: Contains a single function defination
 Author: Muzzo
-Date Created: Sept 2023
+Date Created: Sept 27, 2023
 """
 
 
 def add_attribute(obj, att, value):
     """
-    A function adds a new attribute to object if it’s possible.
+    This function adds a new attribute to an object if  possible
     """
     if hasattr(obj, "__dict__"):
         setattr(obj, att, value)
     else:
-        raise TypeError("can't add niew attribute")
+        raise TypeError("can't add new attribute")
