@@ -10,7 +10,7 @@ Date Created: Sept 2023
 
 def add_attribute(obj, att, value):
     """
-    a funct adds a new attribute to object if it’s possible.
+    A function adds a new attribute to object if it’s possible.
     """
     if hasattr(obj, "__dict__"):
         setattr(obj, att, value)
